@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000; 
+    color: white; 
+    padding: 15px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 6px inset #2846b3f1;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;   
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    max-width: 75px; 
+    margin-right: 15px;
+
+}
+
+ul {
+    list-style: none; 
+    display: flex; 
+    margin-right: 20px;
+}
+
+li {
+    padding: 15px;
+    margin-left: 25px; 
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #475fb7f1; 
+}
+
+.hero {
+    background-image: url("https://s1.1zoom.me/b4348/422/Mercedes-Benz_Concept_GT-Class_Black_background_575500_3840x2160.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.bienvenida {
+    padding: 20px;
+    width: 30%;
+    background-color: rgba(0,0,0,0.8);
+    color: white; 
+    font-size: 50px; 
+    text-align: center;
+    border-radius: 25px;
+}
+
+.bienvenida p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px; 
+    margin-top: 20px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    padding: 0.5em 2em;
+    border: transparent;
+    background: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: white;
+    background: #001150f1;
+}
+
+
