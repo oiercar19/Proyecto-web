@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Verdana', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 6px inset #2846b3f1;
+    border-bottom: 6px inset #232c4df1;
 }
 
 h2 {
@@ -63,8 +63,8 @@ a:hover {
 }
 
 .bienvenida {
-    padding: 20px;
-    width: 30%;
+    padding: 15px;
+    width: 35%;
     background-color: rgba(0,0,0,0.8);
     color: white; 
     font-size: 50px; 
@@ -79,11 +79,15 @@ a:hover {
     margin-top: 20px;
 }
 
+.bienvenida h2 {
+    font-size: 40px; 
+}
+
 button {
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    padding: 0.5em 2em;
+    margin-bottom: 10px;
+    height: 55px;
+    width: 300px;
+    font-size: 25px;
     border: transparent;
     background: dodgerblue;
     color: white;
@@ -92,7 +96,64 @@ button {
 
 button:hover {
     color: white;
-    background: #001150f1;
+    background: #000827f1;
 }
+
+.sobreNosotros {
+    max-width: 70%;
+    margin: 0 auto;
+    color: white; 
+    padding: 15px; 
+    
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.destacado {
+    display: inline-block;
+    width: 32%;
+}
+
+.destacado p {
+    max-width: 90%;
+}
+
+.coches {
+    max-width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.coche {
+    border: 5px solid white;
+    display: inline-block;
+    margin: 20px; 
+    width: 26%; 
+    color: white; 
+    border-radius: 25px; 
+    padding: 15px;
+}
+
+.coche img {
+    max-width: 100%; 
+    border-radius: 25px;
+}
+
+.coche h3 {
+    font-size: 30px; 
+    margin-top: 10px;
+}
+
+.coche p {
+    font-size: 20px; 
+    margin-top: 10px;
+}
+
+
 
 
