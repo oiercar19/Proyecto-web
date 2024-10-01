@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #030e25;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px;
+    color: white;
+}
+
+table {
+    font-size: 18px;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+td {
+    color: #ffffff;
+}
+
+table tr:hover {
+    background-color: #26272d;
+}
+
+.hero {
+    background-image: url("https://images0.autocasion.com/unsafe/x0/adv/03/2932/719c128148fd4b99de113a9f3a700a223a7b2c0d.jpeg") ;
+    border-bottom: 2px solid dodgerblue;
+    background-size: cover; 
+    background-position: center;
+    height: 50vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.bienvenida {
+    padding: 15px;
+    width: 33%;
+    background-color: rgba(0,0,0,0.85);
+    color: white; 
+    font-size: 50px; 
+    text-align: center;
+    border-radius: 25px;
+}
+
+.bienvenida p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bienvenida h2 {
+    font-size: 40px; 
+}
+
+#listaCoches {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.boton {
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    background: dodgerblue;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 50%; 
+    margin: 0 auto; 
+    display: block;
+    line-height: 60px; /* Alineación vertical (igual a la altura) */
+
+}
+
+.boton:hover {
+    color: black;
+    background: rgb(0, 204, 255);
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    img {
+        width: 50px;
+    }
+}
+
+img:hover {
+    transform: scale(5);
+    transition: transform 0.5s;
+}
+
+a:hover {
+    color: #475fb7f1; 
+}
