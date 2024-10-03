@@ -55,6 +55,7 @@ h1 {
     background-color: rgba(0,0,0,0.85);
     padding: 20px;
     border: 2px solid dodgerblue;
+    border-radius: 20px;
     text-align: left;
 }
 
@@ -75,7 +76,7 @@ legend {
 
 .formulario input {
     width: 95%;
-    height: 30px;
+    height: 25px;
     margin-bottom: 20px;
     font-size: 20px;
     padding-left: 10px;
@@ -89,7 +90,12 @@ legend {
     padding-left: 10px;
 }
 
+.opciones {
+    width: 70%;
+    display: inline-block;
+    margin: 0 auto;
 
+}
 
 #boton {
     width: 30%;
@@ -108,3 +114,6 @@ legend {
     background: rgb(0, 204, 255);
 }
 
+a:hover {
+    color: #475fb7f1; 
+}

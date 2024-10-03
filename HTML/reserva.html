@@ -40,15 +40,28 @@
                     <label for="apellidos">Apellidos:</label>
                     <input type="text" id="apellidos" name="apellidos">
                     <br>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni">
+                    <br>
+                    <label for="direccion">Dirección:</label> 
+                    <input type="text" id="direccion" name="direccion">
                 </fieldset>
                 <br>
                 <fieldset class="field">
-                    <legend>Datos de contacto</legend>
+                    <legend>Datos de reserva</legend>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                     <br>
                     <label for="telefono">Teléfono:</label>
                     <input type="tel" id="telefono" name="telefono" required>
+                    <br>
+                    <label for="fecha">Entrega de vehiculo usado:</label>
+                    <div class="opciones">
+                        <label for="radio">si</label>
+                        <input class="opcion" type="radio" name="cocheUsado" value="si">
+                        <label for="radio">no</label>
+                        <input class="opcion" type="radio" name="cocheUsado" value="no">
+                    </div>
                     <br>
                     <label for="coche">Coche:</label>
                     <select name="coche" id="coche">
