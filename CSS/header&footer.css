@@ -104,3 +104,33 @@ footer {
     color: #ccc;
     font-size: 14px;
 }
+
+/* Media Queries para tablets (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    header ul {
+        margin-right: 20px;
+    }
+
+    header li {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .footer {
+        max-width: 85%;
+    }
+
+    .footer2 {
+        width: 48%;
+        margin-top: 50px;
+    }
+
+    .footer2 h3 {
+        font-size: 18px;
+    }
+
+    .ultimo p {
+        font-size: 12px;
+    }
+}
+

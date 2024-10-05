@@ -25,7 +25,7 @@ a:hover {
 }
 
 .hero {
-    background-image: url("https://s1.1zoom.me/b4348/422/Mercedes-Benz_Concept_GT-Class_Black_background_575500_3840x2160.jpg");
+    background-image: url("/Imagenes/cochePrincipal.jpg");
     border-bottom: 2px solid dodgerblue;
     background-size: cover; 
     background-position: center;
@@ -77,9 +77,6 @@ a:hover {
 }
 
 .sobreNosotros {
-    p {
-        font-size: 17px;
-    }
     max-width: 70%;
     margin: 0 auto;
     color: white; 
@@ -88,6 +85,10 @@ a:hover {
     align-items: center;
 
     
+}
+
+.sobreNosotros p {
+    font-size: 17px;
 }
 
 .destacado {
@@ -141,9 +142,9 @@ a:hover {
     margin-top: 10px;
 }
 
-.test {
+.fotoSobreNosotros {
     float: right;
-    margin: 10px; /* Espaciado alrededor de la imagen */
+    margin: 10px; 
     width: 400px; 
     border-radius: 25px;
 }
@@ -153,6 +154,84 @@ a:hover {
 
 }
 
+/* Media Queries para tablets (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    .bienvenida {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .bienvenida p {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .coche {
+        width: 100%;
+    }
+
+    .boton {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .fotoSobreNosotros {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+    .texto {
+        width: 100%;
+    }
+
+}
+
+/* Media Queries para móviles (ancho máximo de 480px) */
+@media (max-width: 480px) {
+    .hero {
+        height: 50vh;
+        background-position: top;
+    }
+
+    .bienvenida {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .bienvenida p {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .coche {
+        width: 100%;
+    }
+
+    .boton {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sobreNosotros, .coches {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .destacado {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .test {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .texto {
+        width: 100%;
+    }
+}
 
 
 

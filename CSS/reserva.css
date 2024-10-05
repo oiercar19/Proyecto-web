@@ -12,7 +12,7 @@ h1 {
 }
 
 .hero {
-    background-image: url("https://png.pngtree.com/background/20230525/original/pngtree-speedometer-on-modern-car-with-light-on-picture-image_2732488.jpg") ;
+    background-image: url("/Imagenes/velocimetro.jpg") ;
     border-bottom: 2px solid dodgerblue;
     background-size: cover; 
     background-position: center;
@@ -91,10 +91,22 @@ legend {
 }
 
 .opciones {
-    width: 70%;
-    display: inline;
-    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
 
+.opciones label {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.opciones input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 #boton {

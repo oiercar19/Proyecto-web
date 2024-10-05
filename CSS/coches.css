@@ -13,7 +13,7 @@ h1 {
 
 table {
     font-size: 18px;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     border-collapse: collapse;
     background-color: rgb(0, 0, 0);
@@ -47,7 +47,7 @@ table tr:hover {
 }
 
 .hero {
-    background-image: url("https://images0.autocasion.com/unsafe/x0/adv/03/2932/719c128148fd4b99de113a9f3a700a223a7b2c0d.jpeg") ;
+    background-image: url("/Imagenes/fotoNuestrosCoches.webp") ;
     border-bottom: 2px solid dodgerblue;
     background-size: cover; 
     background-position: center;
@@ -80,13 +80,14 @@ table tr:hover {
 }
 
 #listaCoches {
-    h2 {
-        text-align: center;
-        margin: 40px;
-        color: white;
-    }
     max-width: 80%;
     margin: 0 auto;
+}
+
+#listaCoches h2 {
+    text-align: center;
+    margin: 40px;
+    color: white;
 }
 
 .boton {
@@ -108,20 +109,90 @@ table tr:hover {
     background: rgb(0, 204, 255);
 }
 
-@media (max-width: 768px) {
-    table {
-        width: 100%;
-    }
-
-    img {
-        width: 50px;
-    }
-}
-
 img:hover {
     transform: scale(5);
 }
 
 a:hover {
     color: #475fb7f1; 
+}
+
+/* Media Queries para tablets (ancho máximo de 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    table {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    .bienvenida {
+        width: 60%;  /* Ajusta la anchura en tablets */
+        font-size: 40px;
+    }
+
+    .bienvenida h2 {
+        font-size: 30px;
+    }
+
+    .bienvenida p {
+        font-size: 18px;
+    }
+
+    #listaCoches h2 {
+        font-size: 30px;
+    }
+
+    .boton {
+        width: 80%;
+        font-size: 22px;
+    }
+}
+
+/* Media Queries para móviles (ancho máximo de 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    table {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    img {
+        width: 80px;  /* Ajustar tamaño de imagen en móviles */
+    }
+
+    .bienvenida {
+        width: 80%;  /* Ajusta la anchura en móviles */
+        font-size: 30px;
+    }
+
+    .bienvenida h2 {
+        font-size: 24px;
+    }
+
+    .bienvenida p {
+        font-size: 16px;
+    }
+
+    #listaCoches h2 {
+        font-size: 24px;
+    }
+
+    .boton {
+        width: 90%;
+        font-size: 20px;
+    }
 }
