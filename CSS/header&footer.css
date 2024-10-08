@@ -32,12 +32,12 @@ a {
     font-weight: bold;
 }
 
-.logo-container {
+#contenedorLogo {
     display: flex;
     align-items: center; 
 }
 
-.logo {
+#logo {
     max-width: 75px; 
     margin-right: 15px;
 
@@ -62,7 +62,7 @@ footer {
     
 }
 
-.footer {
+#contacto {
     max-width: 70%;
     margin: 0 auto;
     padding: 20px ;
@@ -92,7 +92,7 @@ footer {
     font-weight: lighter;
 }
 
-.ultimo {
+#copyright {
     width: 100%;
     text-align: center;
     margin-top: 20px;
@@ -100,7 +100,7 @@ footer {
     padding-top: 10px;
 }
 
-.ultimo p {
+#copyright p {
     color: #ccc;
     font-size: 14px;
 }
@@ -116,7 +116,7 @@ footer {
         font-size: 20px;
     }
 
-    .footer {
+    #contacto {
         max-width: 85%;
     }
 
@@ -129,8 +129,46 @@ footer {
         font-size: 18px;
     }
 
-    .ultimo p {
+    #copyright p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+    header {
+        height: 100px;
+        justify-content: normal;
+        padding: 5px;
+        display: flex;
+    }
+
+    header ul {
+        display: inline;
+    }
+
+    header li {
+        margin-left: 10px;
+        padding: 5px;
+        padding-left: 55px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #logo {
+        max-width: 50px;
+        margin-right: 10px;
+    }
+
+    #contacto {
+        max-width: 90%;
+    }
+
+    .footer2 {
+        width: 100%;
+        margin-top: 30px;
     }
 }
 

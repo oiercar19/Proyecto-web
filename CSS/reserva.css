@@ -93,20 +93,26 @@ legend {
 .opciones {
     display: inline-flex;
     align-items: center;
-    margin-top: 10px;
+    
 }
 
 .opciones label {
     margin-right: 15px;
     margin-left: 15px;
     font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
 }
 
 .opciones input {
     width: 20px;
     height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
+
 }
 
 #boton {

@@ -57,7 +57,7 @@ table tr:hover {
     align-items: center;
 }
 
-.bienvenida {
+#bienvenida {
     padding-top: 15px;
     width: 45%;
     background-color: rgba(0,0,0,0.85);
@@ -67,7 +67,7 @@ table tr:hover {
     border-radius: 25px;
 }
 
-.bienvenida p {
+#bienvenida p {
     width: 50%;
     margin: 0 auto;
     font-size: 20px; 
@@ -75,7 +75,7 @@ table tr:hover {
     margin-bottom: 10px;
 }
 
-.bienvenida h2 {
+#bienvenida h2 {
     font-size: 40px; 
 }
 
@@ -132,16 +132,16 @@ a:hover {
         padding: 10px;
     }
 
-    .bienvenida {
+    #bienvenida {
         width: 60%;  /* Ajusta la anchura en tablets */
         font-size: 40px;
     }
 
-    .bienvenida h2 {
+    #bienvenida h2 {
         font-size: 30px;
     }
 
-    .bienvenida p {
+    #bienvenida p {
         font-size: 18px;
     }
 
@@ -174,16 +174,16 @@ a:hover {
         width: 80px;  /* Ajustar tamaño de imagen en móviles */
     }
 
-    .bienvenida {
+    #bienvenida {
         width: 80%;  /* Ajusta la anchura en móviles */
         font-size: 30px;
     }
 
-    .bienvenida h2 {
+    #bienvenida h2 {
         font-size: 24px;
     }
 
-    .bienvenida p {
+    #bienvenida p {
         font-size: 16px;
     }
 
@@ -193,6 +193,6 @@ a:hover {
 
     .boton {
         width: 90%;
-        font-size: 20px;
+        font-size: 14px;
     }
 }

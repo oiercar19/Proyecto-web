@@ -35,7 +35,7 @@ a:hover {
     align-items: center;
 }
 
-.bienvenida {
+#bienvenida {
     padding: 15px;
     width: 35%;
     background-color: rgba(0,0,0,0.8);
@@ -45,7 +45,7 @@ a:hover {
     border-radius: 25px;
 }
 
-.bienvenida p {
+#bienvenida p {
     width: 50%;
     margin: 0 auto;
     font-size: 20px; 
@@ -53,7 +53,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.bienvenida h2 {
+#bienvenida h2 {
     font-size: 40px; 
 }
 
@@ -76,7 +76,7 @@ a:hover {
     background: rgb(0, 204, 255);
 }
 
-.sobreNosotros {
+#sobrenosotros {
     max-width: 70%;
     margin: 0 auto;
     color: white; 
@@ -87,7 +87,7 @@ a:hover {
     
 }
 
-.sobreNosotros p {
+#sobrenosotros p {
     font-size: 17px;
 }
 
@@ -105,7 +105,7 @@ a:hover {
     max-width: 90%;
 }
 
-.coches {
+#NuestrosCoches {
     max-width: 70%;
     margin: 0 auto;
     color: white;
@@ -142,7 +142,7 @@ a:hover {
     margin-top: 10px;
 }
 
-.fotoSobreNosotros {
+#fotoSobreNosotros {
     float: right;
     margin: 10px; 
     width: 400px; 
@@ -156,12 +156,12 @@ a:hover {
 
 /* Media Queries para tablets (ancho máximo de 768px) */
 @media (max-width: 768px) {
-    .bienvenida {
+    #bienvenida {
         width: 70%;
         font-size: 40px;
     }
 
-    .bienvenida p {
+    #bienvenida p {
         width: 70%;
         font-size: 18px;
     }
@@ -175,7 +175,7 @@ a:hover {
         font-size: 20px;
     }
 
-    .fotoSobreNosotros {
+    #fotoSobreNosotros {
         width: 100%;
         margin: 0 auto;
         float: none;
@@ -193,18 +193,33 @@ a:hover {
         background-position: top;
     }
 
-    .bienvenida {
-        width: 90%;
+    #bienvenida {
+        margin-top: 20px;
+        width: 80%;
         font-size: 30px;
     }
 
-    .bienvenida p {
+    #bienvenida h2 {
+        font-size: 25px;
+    }
+
+    #bienvenida p {
         width: 80%;
         font-size: 16px;
     }
 
+    #NuestrosCoches {
+        max-width: 90%;
+        padding: 15px;
+        
+    }
+
     .coche {
-        width: 100%;
+        width: 80%;
+    }
+
+    .coche p {
+        font-size: 17px;
     }
 
     .boton {
@@ -212,7 +227,7 @@ a:hover {
         font-size: 18px;
     }
 
-    .sobreNosotros, .coches {
+    #sobrenosotros, #NuestrosCoches {
         max-width: 90%;
         padding: 15px;
     }
@@ -231,6 +246,7 @@ a:hover {
     .texto {
         width: 100%;
     }
+
 }
 
 

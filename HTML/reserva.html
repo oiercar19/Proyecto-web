@@ -8,15 +8,15 @@
 </head>
 <body>
     <header>
-        <div class="logo-container">
-            <img src="/Imagenes/logo.png" alt="Logo" class="logo">
+        <div id="contenedorLogo">
+            <img src="/Imagenes/logo.png" alt="Logo" id="logo">
             <h2>Gear-33</h2>
         </div>
         <nav>
             <ul>
                 <li><a href="main.html">Inicio</a></li>
                 <li><a href="/HTML/main.html/#sobrenosotros">Sobre nosotros</a></li>
-                <li><a href="#NuestrosCoches">Nuestros coches</a></li>
+                <li><a href="/HTML/coches.html">Nuestros coches</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -39,6 +39,9 @@
                     <br>
                     <label for="apellidos">Apellidos:</label>
                     <input type="text" id="apellidos" name="apellidos">
+                    <br>
+                    <label for="fecha">Fecha nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
                     <br>
                     <label for="dni">DNI:</label>
                     <input type="text" id="dni" name="dni">
@@ -65,7 +68,7 @@
                         <input class="opcion" type="radio" name="cocheUsado" value="no">
                     </div>
                     <br>
-                    <label for="coche">Coche:</label>
+                    <label for="coche">Coche a reservar:</label>
                     <select name="coche" id="coche">
                         <option value="mercedes">Mercedes-Benz Clase A</option>
                         <option value="audi">Audi RS7</option>
@@ -83,7 +86,7 @@
     </main>   
     
     <footer>
-        <div id="contacto" class="footer">
+        <div id="contacto">
             <div class="footer2">
                 <h3>Enlaces rápidos</h3>
                 <ul>
@@ -106,7 +109,7 @@
                     <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
                 </ul>
             </div>
-            <div class="ultimo">
+            <div id="copyright">
                 <p>&copy; 2024 Gear-33. Todos los derechos reservados.</p>
             </div>             
         </div>
