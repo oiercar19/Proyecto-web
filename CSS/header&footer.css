@@ -5,18 +5,19 @@ body {
 }
 
 main {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 header {
     background-color: #030e25; 
     color: white; 
     padding: 10px; 
-    display: flex;
-    /**/
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 2px inset dodgerblue;
+    /*Pregunté a ChatGPT como hacer para que el header me quedase en una sola linea*/
+    display: flex; /*Para que todo se me organicen todos los elementos en una misma linea horizontalmente uno tras otro, luego uso las siguientes dos propiedades para darle mejor apariencia*/
+    justify-content: space-between; /*Para que cada elemento de el header se tenga un mismo espacio entre sí, yo lo uso para que cada elemento del header se me quede en una esquina*/
+    align-items: center; /*Para ajustar todo verticalmente a la misma altura. Yo lo use sobre todo para que es logo se me posicionase correctamente en el header*/
+    /*Para dejar el header fijo https://blog.duda.co/es/encabezado-fijo*/
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +35,6 @@ a {
 }
 
 #contenedorLogo {
-    /**/
     display: flex;
     align-items: center; 
 }
@@ -59,7 +59,7 @@ header li {
 
 footer {
     background: rgb(0,0,0);
-    /**/
+    /*Gradiente: https://cssgradient.io/ */
     background: linear-gradient(0deg, rgba(0,0,0,1) 80%, rgba(3,14,37,1) 100%);
     color: white;
     
@@ -145,7 +145,6 @@ footer {
         height: 100px;
         justify-content: normal;
         padding: 5px;
-        display: flex;
     }
 
     header ul {

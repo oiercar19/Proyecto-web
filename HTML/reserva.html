@@ -1,118 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Reserva tu coche</title>
-    <link rel="stylesheet" href="/CSS/header&footer.css">
-    <link rel="stylesheet" href="/CSS/reserva.css">
-</head>
-<body>
-    <header>
-        <div id="contenedorLogo">
-            <img src="/Imagenes/logo.png" alt="Logo" id="logo">
-            <h2>Gear-33</h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="main.html">Inicio</a></li>
-                <li><a href="/HTML/main.html/#sobrenosotros">Sobre nosotros</a></li>
-                <li><a href="/HTML/coches.html">Nuestros coches</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="principal">
-            <div class="bienvenida">
-                <h1 id="bienvenido">Reserva tu coche</h1>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gear-33 | Reserva</title>
+        <link rel="stylesheet" href="/CSS/header&footer.css">
+        <link rel="stylesheet" href="/CSS/reserva.css">
+        <link rel="icon" href="/Imagenes/logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div id="contenedorLogo">
+                <img src="/Imagenes/logo.png" alt="Logo" id="logo">
+                <h2>Gear-33</h2>
             </div>
-        </section>
-
-        <section class="formulario">
-            <h2>Formulario de reserva</h2>
-            <form>
-                <fieldset class="field">
-                    <legend>Datos personales</legend>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
-                    <br>
-                    <label for="apellidos">Apellidos:</label>
-                    <input type="text" id="apellidos" name="apellidos">
-                    <br>
-                    <label for="fecha">Fecha nacimiento:</label>
-                    <input type="date" id="fecha" name="fecha">
-                    <br>
-                    <label for="dni">DNI:</label>
-                    <input type="text" id="dni" name="dni">
-                    <br>
-                    <label for="direccion">Dirección:</label> 
-                    <input type="text" id="direccion" name="direccion">
-                </fieldset>
-                <br>
-                <fieldset class="field">
-                    <legend>Datos de reserva</legend>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <br>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" required>
-                    <br>
-                    <label>Entrega de vehiculo usado:</label>
-                    <br>
-                    <div class="opciones">
-                        <label>Si</label>
-                        <input class="opcion" type="radio" name="cocheUsado" value="si">
-                        <br>
-                        <label>No</label>
-                        <input class="opcion" type="radio" name="cocheUsado" value="no">
-                    </div>
-                    <br>
-                    <label for="coche">Coche a reservar:</label>
-                    <select name="coche" id="coche">
-                        <option value="mercedes">Mercedes-Benz Clase A</option>
-                        <option value="audi">Audi RS7</option>
-                        <option value="aston">Aston Martin DB11</option>
-                        <option value="bmw">BMW M8</option>
-                        <option value="porsche">Porsche 911</option>
-                        <option value="mclaren">Mclaren 720S</option>
-                    </select>
-                <br>
-                </fieldset>
-                <br>
-                <input id="boton" type="submit" value="Reservar">
-            </form>
-        </section>
-    </main>   
-    
-    <footer>
-        <div id="contacto">
-            <div class="footer2">
-                <h3>Enlaces rápidos</h3>
+            <nav>
                 <ul>
                     <li><a href="main.html">Inicio</a></li>
-                    <li><a href="main.html/sobreNosotros">Sobre nosotros</a></li>
-                    <li><a href="coches.html">Nuestros coches</a></li>
+                    <li><a href="/HTML/main.html/#sobrenosotros">Sobre nosotros</a></li>
+                    <li><a href="/HTML/coches.html">Nuestros coches</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="principal">
+                <div class="bienvenida">
+                    <h1 id="bienvenido">Reserva tu coche</h1>
+                </div>
+            </section>
+
+            <section class="formulario">
+                <h2>Formulario de reserva</h2>
+                <form>
+                    <fieldset class="field">
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <br>
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos">
+                        <br>
+                        <label for="fecha">Fecha nacimiento:</label>
+                        <input type="date" id="fecha" name="fecha">
+                        <br>
+                        <label for="dni">DNI:</label>
+                        <br>
+                        <input type="text" id="dni" name="dni">
+                        <br>
+                        <label for="direccion">Dirección:</label> 
+                        <input type="text" id="direccion" name="direccion">
+                    </fieldset>
+                    <br>
+                    <fieldset class="field">
+                        <legend>Datos de reserva</legend>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                        <br>
+                        <label>Entrega de vehiculo usado:</label>
+                        <br>
+                        <div class="opciones">
+                            <label>Si</label>
+                            <input class="opcion" type="radio" name="cocheUsado" value="si">
+                            <br>
+                            <label>No</label>
+                            <input class="opcion" type="radio" name="cocheUsado" value="no">
+                        </div>
+                        <br>
+                        <label for="coche">Coche a reservar:</label>
+                        <select name="coche" id="coche">
+                            <option value="mercedes">Mercedes-Benz Clase A</option>
+                            <option value="audi">Audi RS7</option>
+                            <option value="aston">Aston Martin DB11</option>
+                            <option value="bmw">BMW M8</option>
+                            <option value="porsche">Porsche 911</option>
+                            <option value="mclaren">Mclaren 720S</option>
+                        </select>
+                    <br>
+                    </fieldset>
+                    <br>
+                    <input id="check" type="checkbox">
+                    <p id="terminos">Acepto los <a href="https://www.iubenda.com/es/help/37616-que-son-los-terminos-y-condiciones-y-para-que-sirven" target="_blank"> terminos y condiciones</a></p>
+                    <br>
+                    <input id="boton" type="submit" value="Reservar">
+                </form>
+            </section>
+        </main>   
+        <footer>
+            <div id="contacto">
+                <div class="footer2">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="main.html">Inicio</a></li>
+                        <li><a href="main.html/sobreNosotros">Sobre nosotros</a></li>
+                        <li><a href="coches.html">Nuestros coches</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer2">
+                    <h3>Contacto</h3>
+                    <p>Email: info@gear-33.com</p>
+                    <p>Teléfono: +34 123 456 789</p>
+                </div>
+                <div class="footer2">
+                    <h3>Redes sociales</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/?locale=es_ES" target="_blank">Facebook</a></li>
+                        <li><a href="https://x.com/home" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+                <div id="copyright">
+                    <p>© 2024 Gear-33. Todos los derechos reservados.</p>
+                </div>             
             </div>
-            <div class="footer2">
-                <h3>Contacto</h3>
-                <p>Email: info@gear-33.com</p>
-                <p>Teléfono: +34 123 456 789</p>
-            </div>
-            <div class="footer2">
-                <h3>Redes sociales</h3>
-                <ul>
-                    <li><a href="https://www.facebook.com/?locale=es_ES" target="_blank">Facebook</a></li>
-                    <li><a href="https://x.com/home" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                </ul>
-            </div>
-            <div id="copyright">
-                <p>&copy; 2024 Gear-33. Todos los derechos reservados.</p>
-            </div>             
-        </div>
-    </footer> 
-</body>
+        </footer> 
+    </body>
 </html>

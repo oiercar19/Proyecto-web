@@ -15,7 +15,8 @@ table {
     font-size: 18px;
     width: 90%;
     margin: 20px auto;
-    /**/
+    /*Hace que los bordes que estan juntos se combinen en un solo borde.  */
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse*/
     border-collapse: collapse;
     background-color: rgb(0, 0, 0);
     margin-bottom: 40px;
@@ -37,6 +38,7 @@ img {
     height: auto;
     border-radius: 5px;
     /*Hace que la transicion sea más suave*/
+    /*https://www.w3schools.com/css/css3_transitions.asp*/
     transition: transform 0.5s;
 }
 
@@ -51,13 +53,13 @@ table tr:hover {
 #principal {
     background-image: url("/Imagenes/fotoNuestrosCoches.webp") ;
     border-bottom: 2px solid dodgerblue;
-    /**/
-    background-size: cover; 
-    background-position: center;
-    height: 50vh; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+    /*Codigo generado por chatGPT. Le pedí que como podia hacer que la foto se viera completa para luego poner elementos encima de esa imagen en el centro*/
+    background-size: cover; /*Para que la imagen se vea completa y no se haga zoom automatico*/
+    background-position: center; /*Para que la imagen se centre en la pantalla*/
+    height: 50vh; /*50% de la altura total de la ventana del navegador*/
+    display: flex; /*Para que los dos siguientes atributos funcionen uso el display flex*/
+    justify-content: center; /*Alinear los elementos horizontalmente en el centro del div*/ 
+    align-items: center; /*Alinear los elemento verticalmente en el centro del div*/
 }
 
 #bienvenida {
@@ -103,7 +105,7 @@ table tr:hover {
     max-width: 50%; 
     margin: 0 auto; 
     display: block;
-    line-height: 60px; /* Alineación vertical (igual a la altura) */
+    line-height: 60px;
 
 }
 
@@ -113,7 +115,8 @@ table tr:hover {
 }
 
 img:hover {
-    /*Multiplica*/
+    /*Hace que al pasar por encima de la imagen el raton la imagen se hará 5 veces más grande al tamaño que tenia*/
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale*/
     transform: scale(5);
 }
 

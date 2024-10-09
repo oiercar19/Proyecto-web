@@ -4,13 +4,15 @@ body {
     background-color: #030e25;
 }
 
-main {
-    margin-top: 5%;
-}
-
 h2 {
     font-weight: bold;
     font-size: 35px;
+}
+
+html {
+    /*Hace que el scroll entre elementos sea más suave*/
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior*/
+    scroll-behavior: smooth;
 }
 
 a {
@@ -24,14 +26,15 @@ a:hover {
 }
 
 #principal {
-    background-image: url("/Imagenes/cochePrincipal.jpg");
+    background-image: url("/Imagenes/cochePrincipal.jpg"); /*imagen de fondo para el div*/
     border-bottom: 2px solid dodgerblue;
-    background-size: cover; 
-    background-position: center;
-    height: 100vh; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+    /*Codigo generado por chatGPT. Le pedí que como podia hacer que la foto se viera completa para luego poner elementos encima de esa imagen en el centro*/
+    background-size: cover; /*Para que la imagen se vea completa y no se haga zoom automatico*/
+    background-position: center; /*Para que la imagen se centre en la pantalla*/
+    height: 100vh; /*100% de la altura total de la ventana del navegador*/
+    display: flex; /*Para que los dos siguientes atributos funcionen uso el display flex*/
+    justify-content: center; /*Alinear los elementos horizontalmente en el centro del div*/ 
+    align-items: center; /*Alinear los elemento verticalmente en el centro del div*/
 }
 
 #bienvenida {
@@ -39,7 +42,6 @@ a:hover {
     width: 35%;
     background-color: rgba(0,0,0,0.8);
     color: white; 
-    /**/
     font-size: 50px; 
     text-align: center;
     border-radius: 25px;
@@ -67,7 +69,7 @@ a:hover {
     max-width: 50%; 
     margin: 0 auto; 
     display: block;
-    line-height: 55px; /* Alineación vertical (igual a la altura) */
+    line-height: 55px; 
 
 }
 
@@ -80,12 +82,7 @@ a:hover {
     max-width: 70%;
     margin: 0 auto;
     color: white; 
-    padding: 30px; 
-    /**/
-    justify-content: center;
-    align-items: center;
-
-    
+    padding: 30px;   
 }
 
 #sobrenosotros p {
@@ -111,8 +108,6 @@ a:hover {
     margin: 0 auto;
     color: white;
     padding: 20px;
-    justify-content: center; 
-    align-items: center; 
     margin-bottom: 50px;
 }
 
@@ -155,7 +150,7 @@ a:hover {
 
 }
 
-/* Media Queries para tablets (ancho máximo de 768px) */
+/* Media Queries para tablets*/
 @media (max-width: 768px) {
     #bienvenida {
         width: 70%;
@@ -187,11 +182,10 @@ a:hover {
 
 }
 
-/* Media Queries para móviles (ancho máximo de 480px) */
+/* Media Queries para móviles*/
 @media (max-width: 480px) {
     .principal {
         height: 50vh;
-        background-position: top;
     }
 
     #bienvenida {
