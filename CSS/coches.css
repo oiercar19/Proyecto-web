@@ -15,6 +15,7 @@ table {
     font-size: 18px;
     width: 90%;
     margin: 20px auto;
+    /**/
     border-collapse: collapse;
     background-color: rgb(0, 0, 0);
     margin-bottom: 40px;
@@ -35,6 +36,7 @@ img {
     width: 100px;
     height: auto;
     border-radius: 5px;
+    /*Hace que la transicion sea más suave*/
     transition: transform 0.5s;
 }
 
@@ -46,9 +48,10 @@ table tr:hover {
     background-color: #26272d;
 }
 
-.hero {
+#principal {
     background-image: url("/Imagenes/fotoNuestrosCoches.webp") ;
     border-bottom: 2px solid dodgerblue;
+    /**/
     background-size: cover; 
     background-position: center;
     height: 50vh; 
@@ -110,6 +113,7 @@ table tr:hover {
 }
 
 img:hover {
+    /*Multiplica*/
     transform: scale(5);
 }
 

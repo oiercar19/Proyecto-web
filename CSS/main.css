@@ -9,7 +9,6 @@ main {
 }
 
 h2 {
-    
     font-weight: bold;
     font-size: 35px;
 }
@@ -24,7 +23,7 @@ a:hover {
     color: #475fb7f1; 
 }
 
-.hero {
+#principal {
     background-image: url("/Imagenes/cochePrincipal.jpg");
     border-bottom: 2px solid dodgerblue;
     background-size: cover; 
@@ -40,6 +39,7 @@ a:hover {
     width: 35%;
     background-color: rgba(0,0,0,0.8);
     color: white; 
+    /**/
     font-size: 50px; 
     text-align: center;
     border-radius: 25px;
@@ -81,6 +81,7 @@ a:hover {
     margin: 0 auto;
     color: white; 
     padding: 30px; 
+    /**/
     justify-content: center;
     align-items: center;
 
@@ -188,7 +189,7 @@ a:hover {
 
 /* Media Queries para móviles (ancho máximo de 480px) */
 @media (max-width: 480px) {
-    .hero {
+    .principal {
         height: 50vh;
         background-position: top;
     }

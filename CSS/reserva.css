@@ -11,9 +11,10 @@ h1 {
     font-size: 60px;
 }
 
-.hero {
+#principal {
     background-image: url("/Imagenes/velocimetro.jpg") ;
     border-bottom: 2px solid dodgerblue;
+    /**/
     background-size: cover; 
     background-position: center;
     height: 50vh; 
@@ -91,6 +92,7 @@ legend {
 }
 
 .opciones {
+    /**/
     display: inline-flex;
     align-items: center;
     
