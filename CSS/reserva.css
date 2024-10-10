@@ -12,7 +12,7 @@ h1 {
 }
 
 #principal {
-    background-image: url("/Imagenes/velocimetro.jpg") ; /*imagen de fondo para el div*/
+    background-image: url("../Imagenes/velocimetro.jpg") ; /*imagen de fondo para el div*/
     border-bottom: 2px solid dodgerblue;
     /*Codigo generado por chatGPT. Le pedí que como podia hacer que la foto se viera completa para luego poner elementos encima de esa imagen en el centro*/
     background-size: cover; /*Para que la imagen se vea completa y no se haga zoom automatico*/

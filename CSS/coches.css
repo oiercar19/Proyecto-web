@@ -51,7 +51,7 @@ table tr:hover {
 }
 
 #principal {
-    background-image: url("/Imagenes/fotoNuestrosCoches.webp") ;
+    background-image: url("../Imagenes/fotoNuestrosCoches.webp") ;
     border-bottom: 2px solid dodgerblue;
     /*Codigo generado por chatGPT. Le pedí que como podia hacer que la foto se viera completa para luego poner elementos encima de esa imagen en el centro*/
     background-size: cover; /*Para que la imagen se vea completa y no se haga zoom automatico*/
